@@ -1,0 +1,94 @@
+{
+  "HTTP_RESPONSE": {
+    "HTTP_SUCCESS": 200,
+    "HTTP_CREATED": 201,
+    "HTTP_NOT_FOUND": 404,
+    "HTTP_ERROR": 401,
+    "HTTP_BAD_REQUEST": 400,
+    "HTTP_FORBIDDEN": 403,
+    "HTTP_INTERNAL_SERVER_ERROR": 500,
+    "HTTP_VALIDATION_ERROR": 422
+  },
+  "RESPONSE_SUCCESS": {
+    "TRUE": true,
+    "FALSE": false
+  },
+  "ERROR_API_TOAST": {
+    "AUTH_TOKEN_REQUIRED": "Access denied. No token provided.",
+    "UNAUTHORIZED": "Unauthorized.",
+    "ACCESS_DENIED": "Access denied.",
+    "COMMON_ERR_MSG": "Something went wrong.",
+    "EMAIL_ALREADY_EXISTS": "Email already exists.",
+    "EMAIL_SENT_ERROR": "Email not sent. Please try again or check email id again.",
+    "INVALID_TOKEN": "Invalid token.",
+    "INVALID_OR_EXPIRE_TOKEN": "Invalid or expired token.",
+    "INVALID_CREDENTIALS": "Invalid credentials.",
+    "DE_ACTIVE_BY_ADMIN_ERROR": "Your are de-activated by admin.",
+    "VERIFICATION_PENDING_ERROR": "Verification is pending.",
+
+    "INVALID_RECRUITER": "Invalid recruiter.",
+    "INVALID_CLIENT": "Invalid client."
+  },
+
+  "SUCCESS_API_TOAST": {
+    "LOGIN_SUCCESS": "LoggedIn successful.",
+    "REGISTRATION_SUCCESS": "Registration successful, please check your email for verification link.",
+    "LOGIN_EMAIL_SEND": "Please check your email for verification link.",
+    "EMAIL_VERIFICATION_SUCCESS": "Email verified successfully.",
+
+    "NOTE_ADD_SUCCESS": "Note added successfully.",
+
+    "RECRUITER_GET_SUCCESS": "Recruiter fetched successfully.",
+    "RECRUITER_UPDATE_SUCCESS": "Recruiter updated successfully.",
+    "RECRUITER_DELETE_SUCCESS": "Recruiter deleted successfully.",
+
+    "CLIENT_GET_SUCCESS": "Client fetched successfully.",
+    "CLIENT_UPDATE_SUCCESS": "Client update successfully.",
+    "CLIENT_DELETE_SUCCESS": "Client deleted successfully.",
+
+    "POST_CREATE_SUCCESS": "Post created successfully.",
+    "POST_UPDATE_SUCCESS": "Post updated successfully.",
+    "POST_DELETE_SUCCESS": "Post deleted successfully.",
+    "POST_GET_SUCCESS": "Post fetched successfully."
+  },
+
+  "VALIDATION_API_TOAST": {
+    "IDENTITY_NOT_EMPTY": "id is required.",
+    "VALID_IDENTITY_REQUIRED": "Valid document identity is required.",
+
+    "EMAIL_NOT_EMPTY": "Email is required.",
+    "VALID_EMAIL_REQUIRED": "Valid email is required.",
+
+    "PASSWORD_NOT_EMPTY": "Password is required.",
+    "VALID_PASSWORD_REQUIRED": "Valid password is required.",
+
+    "VALID_STATUS_REQUIRED": "Valid status is required.",
+
+    "FIRST_NAME_NOT_EMPTY": "First name is required.",
+    "VALID_FIRST_NAME_REQUIRED": "Valid first name is required.",
+
+    "LAST_NAME_NOT_EMPTY": "Last name is required.",
+    "VALID_LAST_NAME_REQUIRED": "Valid last name is required.",
+
+    "TITLE_NOT_EMPTY": "Title is required.",
+    "VALID_TITLE_REQUIRED": "Valid title is required.",
+
+    "DESCRIPTION_NOT_EMPTY": "Description is required.",
+    "VALID_DESCRIPTION_REQUIRED": "Valid description is required.",
+
+    "DESIGNATION_NOT_EMPTY": "Designation is required.",
+    "VALID_DESIGNATION_REQUIRED": "Valid designation is required.",
+
+    "LOCATION_NOT_EMPTY": "Location is required.",
+    "VALID_LOCATION_REQUIRED": "Valid location is required.",
+
+    "RESPONSIBILITY_NOT_EMPTY": "Responsibility is required.",
+    "VALID_RESPONSIBILITY_REQUIRED": "Valid responsibility is required.",
+
+    "POST_ID_NOT_EMPTY": "Post is required.",
+    "VALID_POST_ID_REQUIRED": "Valid post is required.",
+
+    "CONTENT_NOT_EMPTY": "content is required.",
+    "VALID_CONTENT_REQUIRED": "Valid content is required."
+  }
+}
